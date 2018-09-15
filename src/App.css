@@ -1,0 +1,28 @@
+.App {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  border: 1px solid grey;
+  background-color: rgb(250,250,250);
+  margin: auto;
+  width:80%;
+  
+  margin-top: 30px;
+
+}
+
+.Title {
+  font-size: 35px;
+}
+
+.Button {
+  background-color: green;
+  border: 1px solid black;
+  color: white;
+  padding: 10px 24px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.Sum {
+  font-size: 36px;
+}
