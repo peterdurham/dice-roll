@@ -17,7 +17,5 @@
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
-  "devDependencies": {
-    "jest": "^23.6.0"
-  }
+  "devDependencies": {}
 }
