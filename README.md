@@ -42,10 +42,10 @@ Your Project folder should look like this:
 Create React App provides us with some files and lines of code we can delete
 
 Delete the following files for a basic setup:
-`-App.test.js`
-`-index.css`
--logo.svg
--serviceWorker.js
+- `App.test.js`
+- `index.css`
+- `logo.svg`
+- `serviceWorker.js`
 
 Then remove: 
 -the imports for 'logo.svg' and 'App.css' from `App.js`
