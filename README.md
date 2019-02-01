@@ -2,7 +2,7 @@
 
 Basic **React** App built using Create React App
 
-## Instructions :fire:
+## Instructions
 To install, clone or download the package
 
 in the root directory, run the command
