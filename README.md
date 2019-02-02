@@ -19,22 +19,22 @@ to host the project and view it in your browser
 This project was built using Create-React-App
 This project is hosted on Github Pages [Hosted App](http://https://peterdurham.github.io/dice-roll/)
 
-### Create and Deploy Simple apps using React & Github Pages
+# Create and Deploy Simple apps using React & Github Pages
 
-React is a library for building dynamic HTML views using Javascript. Create React App is a great way to get started using React with minimal configuration.
+React is a library for building dynamic HTML views using Javascript. Create React App is a great way to get started using React with minimal configuration. In this tutorial I will be building a dice roll simulator using Create React App
 
-In this tutorial I will be building a dice roll simulator using Create React App
+In order to get started, first make sure you have Node installed  
 
-In order to get started, first make sure you have Node installed
 [Link to Node Install](https://nodejs.org/en/)
 
-create-react-app will ask you for a project name
+Once you've installed node, choose your own `project-name`, open up the command line and type:
 
-Open up the command line and type:
 
-`npx create-react-app project-name`
+```javascript
+npx create-react-app project-name
+```  
 
-to build out the main files for your project
+this will build out the main files for your project
 
 ## Initial Setup
 
@@ -84,7 +84,7 @@ We can now view the application in our browser by typing:
 
 `npm start`
 
-## The Application
+# The Application
 
 The app we are building will:
 
@@ -92,7 +92,7 @@ The app we are building will:
 2. display the results using dice images
 3. show the sum of the rolls.
 
-### Allow the user to roll between 1 and 5 dice
+## 1. Allow the user to roll between 1 and 5 dice
 
 We will be using React to store the following data in component state:
 
@@ -177,7 +177,7 @@ Your browser should look something like this when you click one of the buttons.
 <img src="http://www.peterdurham.site/images/tutorials/cra-demo2.jpg" alt="create react app setup" />
 
 
-## Display the results using dice images
+## 2. Display the results using dice images
 
 Now that we have our dice roll logic working using buttons and our results stored in state, we can render different images based on what the roll was.
 
@@ -245,7 +245,7 @@ Lastly we need to display the sum of the rolls which we have stored in `this.sta
 
 In this code, I am including a ternary operator so that the h2 is only displayed if `this.state.numberOfDice` is not null. When the user clicks a button, `numberOfDice` is switched from the default of `null` to a number `1-5`. Each side of the colon above represent the JSX to return if the condition is `true` or `false`. If the number of dice is `null` we don't want to display anything.
 
-## Styling the app
+## 3. Styling the app
 
 Now that we have the functionality of the dice roll app built out, we can add css to the project. Here are some basic styles that I made, feel free to make your own or adjust mine.
 
@@ -286,46 +286,55 @@ Now that we have the functionality of the dice roll app built out, we can add cs
 }
 ```
 
-## Deploy to Github Pages
+# Deploy to Github Pages
 
 Now that we have a working application, we can push it to github and deploy it to Github Pages. First thing to do is make sure you have a Github account, and git on your computer.
 
 Before deploying the app, make sure that everything works in the browser and that all files are saved.
 
-### Create a repository
+## Create a repository
 
 Login to Github and create a new repository for your app. Github will provide you with a link to your repository when you create it. Copy this link.
 
 <img src="http://www.peterdurham.site/images/tutorials/cra-demo3.jpg" alt="create react app setup" />
 
-### Push project to Github
+## Push project to Github
 
 Next type the following commands to commit the project:
 
-`git init`  
-creates a new git repository
-
-`git add .`  
+```javascript
+git init  
+// creates a new git repository
+```
+```javascript
+git add .  
 adds changed files to staged changes
-
-`git commit -m "initial commit"`  
+```
+```javascript
+git commit -m "initial commit"  
 commits staged changes
+```  
 
 Next connect your git repository to Github by pasting
 in your remote to the following command:
 
-`git remote add origin https://github.com/peterdurham/dice-roll-demo.git`  
-adds remote repository
+```javascript
+git remote add origin https://github.com/peterdurham/dice-roll-demo.git  
+// adds remote repository
+```
 
-`git push origin master`  
-pushes your project to the master branch on Github
-
-### Setup GH Pages
+```javascript
+git push origin master  
+// pushes your project to the master branch on Github
+```
+## Setup GH Pages
 
 Next, in the project folder run the command:
 
-`yarn add gh-pages`  
-installs Github Pages package
+```javascript
+yarn add gh-pages  
+// installs Github Pages package
+```
 
 In the `package.json` file add the following line, replacing `user-name` and `repo-name` with your github name and repo names
 
