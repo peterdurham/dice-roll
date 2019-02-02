@@ -173,7 +173,7 @@ With the Devtools installed, now open your browsers devtools (f12 for chrome) an
 
 Your browser should look something like this when you click one of the buttons.
 
-<img src="http://www.peterdurham.site/images/tutorials/cra-demo.jpg" alt="create react app setup" />
+<img src="http://www.peterdurham.site/images/tutorials/cra-demo2.jpg" alt="create react app setup" />
 
 ## Display the results using dice images
 
@@ -294,7 +294,7 @@ Before deploying the app, make sure that everything works in the browser and tha
 
 Login to Github and create a new repository for your app. Github will provide you with a link to your repository when you create it. Copy this link.
 
-<img src="http://www.peterdurham.site/images/tutorials/cra-demo.jpg" alt="create react app setup" />
+<img src="http://www.peterdurham.site/images/tutorials/cra-demo3.jpg" alt="create react app setup" />
 
 ### Push project to Github
 
