@@ -95,9 +95,9 @@ The app we are building will:
 
 We will be using React to store the following data in component state:
 
-- number of dice selected
-- results (roll) of each die
-- sum of the rolls
+- `numberOfDice`: number of dice selected
+- `rolls`: results (roll) of each die
+- `rollSum`: sum of the rolls
 
 We can store all this data with a single function `diceRoll` which accepts a number between 1 and 5 as its argument
 
@@ -173,7 +173,8 @@ With the Devtools installed, now open your browsers devtools (f12 for chrome) an
 
 Your browser should look something like this when you click one of the buttons.
 
-<img src="http://www.peterdurham.site/images/tutorials/cra-demo2.jpg" alt="create react app setup" />
+<img src="http://www.peterdurham.site/images/tutorials/cra-demo2.jpg" alt="create react app setup" width="150" height="100"/>
+
 
 ## Display the results using dice images
 
