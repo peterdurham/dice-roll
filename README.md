@@ -82,7 +82,9 @@ export default App;
 
 We can now view the application in our browser by typing:
 
-`npm start`
+```javascript
+npm start
+```
 
 # The Application
 
