@@ -12,7 +12,7 @@ class App extends Component {
   state = {
     numberOfDice: null,
     rolls: [],
-    rollSum: ""
+    rollSum: null
   };
 
   diceRoll = numberOfDice => {
@@ -51,7 +51,6 @@ class App extends Component {
         {this.state.rolls.map((roll, index) => (
           <DiceImage roll={roll} key={index} />
         ))}
-
         {this.state.numberOfDice ? (
           <h2>
             Roll Total: <span className="sum">{this.state.rollSum}</span> /{" "}
