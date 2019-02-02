@@ -22,4 +22,4 @@ npm start
 ## Tools
 
 This project was built using **Create-React-App**  
-This project is hosted on **Github Pages** **[Here](http://https://peterdurham.github.io/dice-roll/)**
+This project is hosted on **Github Pages** **[Here](https://peterdurham.github.io/dice-roll/)**
