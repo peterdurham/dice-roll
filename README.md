@@ -38,8 +38,9 @@ to build out the main files for your project
 
 ## Initial Setup
 
-Your Project folder should look like this:
-<img src="http://www.peterdurham.site/images/tutorials/cra-demo.jpg" alt="create react app setup" />
+Your Project folder should look like this:  
+
+<img src="http://www.peterdurham.site/images/tutorials/cra-demo.jpg" alt="create react app setup" align="center" width="500" height="337"/>
 
 Create React App makes a lot of files for configuration. Since we only need a basic setup, we can delete the following files:
 
@@ -173,7 +174,7 @@ With the Devtools installed, now open your browsers devtools (f12 for chrome) an
 
 Your browser should look something like this when you click one of the buttons.
 
-<img src="http://www.peterdurham.site/images/tutorials/cra-demo2.jpg" alt="create react app setup" width="150" height="100"/>
+<img src="http://www.peterdurham.site/images/tutorials/cra-demo2.jpg" alt="create react app setup" />
 
 
 ## Display the results using dice images
