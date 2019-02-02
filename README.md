@@ -339,3 +339,11 @@ Also add the following 2 lines to the list of scripts in `package.json`
 ```
 
 This tells github pages how to setup your project
+
+Lastly run the following command to publish your React Application:
+
+```javascript
+yarn run deploy
+```
+
+Congratulations, you have just built and deployed a simple React application using create-react-app and Github Pages!!!
