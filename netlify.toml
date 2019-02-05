@@ -1,0 +1,4 @@
+[build]
+base = "dice-roll/"
+publish = "dice-roll/build/"
+command = "npm build"
