@@ -8,12 +8,15 @@ A full tutorial I wrote for this app can be found **[here](https://medium.com/@p
 
 To install, clone or download the package
 
-in the root directory, run the command 
+in the root directory, run the command
+
 ```javascript
 npm install
 // installs dependencies
 ```
+
 then run the command
+
 ```javascript
 npm start
 // starts the project in the browser
